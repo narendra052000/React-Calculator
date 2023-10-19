@@ -1,0 +1,52 @@
+body{
+    background-image: url('../public/CalcBG.jpg');
+ background-repeat:no-repeat;
+background-size: cover;
+}
+
+.form-control{
+    background-color: rgba(245, 166, 166, 0.792);
+    color: rgb(86, 7, 84);
+    /* color: rgb(150, 150, 239); */
+    border: 2px solid black;
+}
+h2{
+    color: rgb(240, 154, 108);
+}
+input{
+    height: 7vh;
+    margin-bottom: 5%;
+}
+
+#CalcBody{
+    align-items: center;
+    justify-content: center;
+    margin:5vh 34.5vw;
+    background-color:rgba(255, 255, 255, 0.868);
+    padding: 2%;
+    border-radius: 0 80px;
+    border: 8px double rgb(122, 129, 201);
+}
+
+button{
+    margin:2vh 1vw;
+    height: 6vh;
+    width: 4vw;
+}
+#Modechange{
+    width:70%;
+   margin-left: 12%;
+}
+#btnac:hover{
+    font-size: 19px;
+    box-shadow: 0px 0px 40px rgb(233, 249, 60);
+}
+#btnpcnt:hover,#btnmultiply:hover,#btnsubtract:hover,#btnplus:hover,#btndivide:hover{
+    box-shadow: 0px 0px 40px rgb(152, 152, 231);
+}
+#btnequal:hover{
+    box-shadow: 0px 0px 20px rgb(33, 161, 61);
+}
+#btndel:hover{
+    box-shadow: 0px 0px 20px rgb(235, 51, 51);
+}
